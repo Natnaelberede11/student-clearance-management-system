@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="student.clearance.management.StaffController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="238.0" style="-fx-background-color: green;">
+         <children>
+            <Button fx:id="cafe_btn" layoutX="75.0" layoutY="116.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="101.0" style="-fx-background-color: BLUE;" text="CAFE" textFill="#fcfcfc">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="head_btn" layoutX="75.0" layoutY="179.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="101.0" style="-fx-background-color: BLUE;" text="HEAD" textFill="#fcfcfc">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="lib_btn" layoutX="75.0" layoutY="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="101.0" style="-fx-background-color: BLUE;" text="LIBRARY" textFill="#fcfcfc">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="reg_btn" layoutX="75.0" layoutY="315.0" mnemonicParsing="false" style="-fx-background-color: BLUE;" text="REGISTRAR" textFill="#fcfcfc">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="238.0" prefHeight="500.0" prefWidth="562.0" style="-fx-background-color: lightblue;" visible="false">
+         <children>
+            <Label layoutX="119.0" layoutY="30.0" style="-fx-background-color: green;" text="HEAD CLEARANCE" textFill="#f2ecec">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="238.0" prefHeight="500.0" prefWidth="562.0" style="-fx-background-color: lightblue;" visible="false">
+         <children>
+            <Label layoutX="130.0" layoutY="34.0" style="-fx-background-color: green;" text="CAFE CLEARANCE" textFill="#f2ecec">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="238.0" prefHeight="500.0" prefWidth="562.0" style="-fx-background-color: lightblue;" visible="false">
+         <children>
+            <Label layoutX="84.0" layoutY="26.0" style="-fx-background-color: green;" text="REGISTRAR CLEARANCE" textFill="#f2ecec">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="238.0" prefHeight="500.0" prefWidth="562.0" style="-fx-background-color: lightblue;">
+         <children>
+            <Label layoutX="84.0" layoutY="26.0" style="-fx-background-color: green;" text="LIBRARY CLEARANCE" textFill="#f2ecec">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
